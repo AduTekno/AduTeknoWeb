@@ -1,18 +1,20 @@
 <?php 
-include("includes/header.php");
+
+
+include("header.php");
 ?>
 <div class="navbar-container">
     
     <div class="first-line"></div>
     <div class="second-line padd10">
-       <img src="images/indir.png" alt="">
+       <img src="/AduTeknoWeb/images/indir.png" alt="">
    
        <nav role="navigation" class="primary-navigation">
   <ul>
-    <li><a href="#">Anasayfa</a></li>
+    <li><a href="index.php">Anasayfa</a></li>
     <li><a href="#">Kurumsal&dtrif;</a>
       <ul class="dropdown">
-        <li><a href="#">Web Development</a></li>
+        <li><a href="pages/kurumsal/development.php">Web Development</a></li>
         <li><a href="#">Web Design</a></li>
         <li><a href="#">Illustration</a></li>
         <li><a href="#">Iconography</a></li>

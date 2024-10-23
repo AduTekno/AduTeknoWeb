@@ -1,5 +1,7 @@
 <?php
- include("includes/header.php");
+
+include( "includes/header.php");
+
 ?>
 <div class="home-container">
     <div class="cart1 border"><?php  include("includes/navbar.php");?></div>

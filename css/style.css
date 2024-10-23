@@ -85,7 +85,7 @@ nav {
       }
   
       li a {
-        color: white;
+        color: black;
       }
   
       li a:hover {
@@ -97,21 +97,22 @@ nav {
       }
   
       ul li ul {
-        visibility: hidden;
         opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
         position: absolute;
   padding-left: 0;
         left: 0;
-        display: none;
-        background: white;
+       
+        background: #A4E4FF;
         border-radius: 8px;
       }
   
       ul li:hover > ul,
       ul li ul:hover {
-        visibility: visible;
         opacity: 1;
-        display: block;
+        max-height: 200px;
         min-width: 250px;
         text-align: left;
         padding-top: 20px;
