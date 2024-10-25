@@ -18,7 +18,7 @@ body {
 .cart1{
     width: 100%;
     height: 15%;
-    background-color:black;
+    background-color:white;
 }
 .cart2{
     width: 100%;
@@ -114,7 +114,7 @@ nav {
         opacity: 1;
         /* max-height: 200px;
         min-width: 250px; */
-        max-height: 300px;
+        max-height: 350px;
         min-width: 250px;
         text-align: left;
         padding-top: 20px;

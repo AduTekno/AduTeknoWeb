@@ -11,7 +11,7 @@ include("header.php");
    
        <nav role="navigation" class="primary-navigation">
   <ul>
-    <li><a href="index.php">Anasayfa</a></li>
+    <li><a href="/AduTeknoWeb/index.php">Anasayfa</a></li>
     <li><a href="#">Kurumsal&dtrif;</a>
       <ul class="dropdown">
      
