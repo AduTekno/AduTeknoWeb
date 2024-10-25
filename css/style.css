@@ -112,7 +112,9 @@ nav {
       ul li:hover > ul,
       ul li ul:hover {
         opacity: 1;
-        max-height: 200px;
+        /* max-height: 200px;
+        min-width: 250px; */
+        max-height: 300px;
         min-width: 250px;
         text-align: left;
         padding-top: 20px;
