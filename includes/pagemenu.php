@@ -36,6 +36,7 @@ include("header.php");
     foreach ($menu_items as $menu_item => $link) {
         if($link == $current_page){
             ?>
+<<<<<<< HEAD
             <div class="flex-box pm-content">
                 <?php
                 echo "<h2>$current_title</h2>";
@@ -43,6 +44,14 @@ include("header.php");
                 ?>
             </div>
             <?php
+=======
+            <div>
+                <?php
+                 echo "<h4>$current_title</h4>";
+                 echo "<li>$menu_item</li>";?>
+            </div>
+           <?php
+>>>>>>> 030fd8bfa67a0f8e842741dad37a63ba24520083
         }
     }
     ?>
