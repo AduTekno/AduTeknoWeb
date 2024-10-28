@@ -32,8 +32,13 @@
 
     foreach ($menu_items as $menu_item => $link) {
         if($link == $current_page){
-            echo "<h4>$current_title</h4>";
-            echo "<li>$menu_item</li>";
+            ?>
+            <div>
+                <?php
+                 echo "<h4>$current_title</h4>";
+                 echo "<li>$menu_item</li>";?>
+            </div>
+           <?php
         }
     }
     ?>
