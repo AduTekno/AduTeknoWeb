@@ -5,8 +5,15 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+ul{
+  list-style: none;
+}
 .padd10{
     padding: 0rem 10rem;
+}
+
+.flex-box{
+  display: flex;
 }
 
 .border{
@@ -151,7 +158,17 @@ nav {
   
    ul li ul li a { transition: all 0.5s ease; }
   
-  
+/* PAGE-MENU */
+
+.page-menu{
+  background-color: #001f54;
+  color: white;
+  font-size: 18px;
+}
+.pm-content{
+  padding: 1rem;
+}
+
 /*FOOTER */
 
 .footer-container{

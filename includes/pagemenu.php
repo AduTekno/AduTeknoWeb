@@ -1,4 +1,7 @@
-<div class="page-menu">
+<?php 
+include("header.php");
+?>
+<div class="page-menu padd10">
     <ul class="menu">
     <?php 
     $current_page = basename($_SERVER['PHP_SELF']);
@@ -32,8 +35,14 @@
 
     foreach ($menu_items as $menu_item => $link) {
         if($link == $current_page){
-            echo "<h4>$current_title</h4>";
-            echo "<li>$menu_item</li>";
+            ?>
+            <div class="flex-box pm-content">
+                <?php
+                echo "<h2>$current_title</h2>";
+                echo "<li>$menu_item</li>"; 
+                ?>
+            </div>
+            <?php
         }
     }
     ?>
